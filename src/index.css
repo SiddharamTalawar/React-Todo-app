@@ -1,0 +1,162 @@
+.card{
+  border: 2px  rgb(147, 144, 144);
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  max-width: 250px;
+  
+}
+.card:hover{
+  transform: scale(1.1);
+}
+
+.card .card-img{
+  max-width: 60%;
+  border-radius: 50%;
+
+}
+/* grreting message */
+.welcome-message{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.login-Prompt{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* footer section */
+.footer-list{
+  background-color: rgb(55, 55, 233);
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 0px;
+
+}
+.footer-list-item{
+  list-style: none;
+  padding: 10px;
+  color: white;
+}
+.footer-list-item:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+footer p{
+  
+  padding: 10px;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 15px;
+  background-color: blue;
+}
+
+/* counter */
+.counter{
+  text-align: center;
+}
+.counter-value{
+  font-size: 100px;
+  font-weight: bold;
+  
+}
+.counter-button{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: rgb(4, 249, 249);
+  color: white;
+  border: none;
+}
+.counter-button:hover{
+  transform: scale(1.1);
+  background-color: rgb(24, 202, 202);
+}
+
+/* color picker */
+.color-picker-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.color-picker-container h1{
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  max-height: 200px;
+  max-width: 200px;
+  border: 4px solid rgba(0, 0, 0, 0.63);
+  border-radius: 10px;
+  padding: 10px;
+  
+  
+  
+}
+
+/* todo */
+.todo-container{
+  text-align: center;
+  background-color: black;
+  border-radius: 50px;
+  width: 400px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.todo-title{
+  color: white;
+  
+  
+  
+}
+.todo-container input{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+
+}
+.add-todo{
+  background-color: rgb(61, 208, 61);
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+.todo-list{
+  background-color: white;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  margin-right: 30px;
+  
+
+}
+.todo-list-items{
+color: black;
+flex: 1;
+}
+.delete-button{
+  background-color: red;
+  border-radius: 5px;
+}
+.up-button{
+  background-color: rgb(255, 255, 0);
+  border-radius: 5px;
+}
+.down-button{
+  background-color: rgb(0, 179, 255);
+  border-radius: 5px;
+}
